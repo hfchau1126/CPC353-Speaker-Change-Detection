@@ -10,7 +10,7 @@ Speaker change detection is the process of identifying transitions between diffe
 
 ## Results
 The performance of the model is evaluated using metrics such as:
-Classification Report:
+- Classification Report:
               precision    recall  f1-score   support
 
            0       0.82      0.19      0.30      6905
@@ -20,7 +20,7 @@ Classification Report:
    macro avg       0.52      0.52      0.33      8743
 weighted avg       0.70      0.33      0.31      8743
 
-F1-Score: 0.3462
-Precision: 0.2174
-Recall: 0.8493
+- F1-Score: 0.3462
+- Precision: 0.2174
+- Recall: 0.8493
 
