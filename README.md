@@ -10,10 +10,17 @@ Speaker change detection is the process of identifying transitions between diffe
 
 ## Results
 The performance of the model is evaluated using metrics such as:
-- Precision: Percentage of correctly detected speaker changes.
-- Recall: Percentage of actual speaker changes detected.
-- F1-Score: Harmonic mean of precision and recall.
-- Model	Precision	Recall	F1-Score
-  SVM	0.85	0.80	0.82
-  Random Forest	0.88	0.83	0.85
-  Neural Network	0.90	0.87	0.88
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.82      0.19      0.30      6905
+           1       0.22      0.85      0.35      1838
+
+    accuracy                           0.33      8743
+   macro avg       0.52      0.52      0.33      8743
+weighted avg       0.70      0.33      0.31      8743
+
+F1-Score: 0.3462
+Precision: 0.2174
+Recall: 0.8493
+
